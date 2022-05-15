@@ -1,0 +1,21 @@
+{
+  "name": "dashboard_system_backend",
+  "version": "1.0.0",
+  "description": "DYP Dashboard System for faculty",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^5.12.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.7"
+  }
+}
